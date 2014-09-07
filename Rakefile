@@ -1,6 +1,6 @@
 require 'rubygems'
-require 'rake/packagetask'
-require 'rake/gempackagetask'
+require 'rubygems/packagetask'
+require 'rubygems/gempackagetask'
 
 spec = Gem::Specification.new do |s| 
   s.name = "wkhtmltopdf-binary"
